@@ -151,8 +151,9 @@ function App() {
                     </Typography>
                   </div>
                 </ListItem>
-                <div className="w-[100%]flex items-center">
-                  <button className="font-normal px-6 py-2 rounded-lg font-poppins text-md w-auto flex gap-5 items-center text-md bg-[#FF7400] text-[#e9ecef]">
+                <div className="w-[70%]flex items-center drop-shadow-xl shadow-md rounded-lg mb-6 h-24">
+                <div className="text-center pt-2 font-semibold font-poppins">Request For Notes</div>
+                  <button className=" px-5 py-2 rounded-lg font-poppins text-sm w-auto flex gap-5 items-center text-md bg-[#FF7400] text-[#e9ecef] ml-auto mr-auto mt-3">
                     Request Notes
                   </button>
                 </div>
@@ -161,17 +162,19 @@ function App() {
           </Card>
         </div>
       </div>
-      <div className="col-span-2 bg-white rounded-md border-[#ced4da] border-[1px] py-5 gap-5 flex flex-col">
-        <div className=" px-5 py-1">
+      <div className="col-span-2 bg-gray-300 h-72 rounded-md border-[#ced4da] border-[1px] py-5 gap-5 flex flex-col">
+        <div className=" px-5 py-1 bg-white w-[90%] rounded-md mr-auto ml-auto">
           <div className="w-full gap-2 flex justify-center items-center">
-            <textarea
+            <input
               name=""
               id=""
-              className="w-[90%] py-2 px-5 font-4  border-[#ced4da] border-[2px] rounded-lg"
+              className="w-[90%] py-2 px-5 font-4  border-none rounded-lg"
               rows="1"
               placeholder="Seacrh"
-            ></textarea>
-            <AiOutlineSearch className="text-[#FF7400] text-[1.5rem]" />
+            ></input>
+            <div className="bg-orange-700 w-10 flex justify-center items-center h-8 rounded-md ">
+            <AiOutlineSearch className="text-[#FFF] text-[1.5rem]" />
+            </div>
             <BsFilter
               className="text-[#FF7400] text-[1.5rem]"
               onClick={() => {
