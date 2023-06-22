@@ -1,7 +1,7 @@
 import { ListItemSuffix, ThemeProvider } from "@material-tailwind/react";
 import { BsBookFill, BsFillJournalBookmarkFill } from "react-icons/bs";
 import { GrNotes } from "react-icons/gr";
-import { LuHistory } from "react-icons/Lu";
+import { LuHistory } from "react-icons/lu";
 import { MdOutlineRecentActors } from "react-icons/md";
 import { RiRestartLine } from "react-icons/ri";
 import { AiOutlineSearch } from "react-icons/ai";
